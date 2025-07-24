@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::middleware(['auth.apikey'])->get('/api/sedes', [SedeController::class, 'index']);
+Route::middleware(['auth.apikey'])->get('/api/locations', [SedeController::class, 'index']);

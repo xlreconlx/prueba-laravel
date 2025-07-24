@@ -64,7 +64,7 @@ La aplicación estará disponible en `http://localhost:8000`
 ### Obtener lista de sedes
 
 ```
-GET /api/sedes
+GET /api/locations
 ```
 
 #### Headers requeridos
