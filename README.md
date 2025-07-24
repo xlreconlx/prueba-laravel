@@ -40,7 +40,7 @@ php artisan key:generate
 4. **Agrega la API Key al archivo `.env`:**
 
 ```env
-API_KEY=1234567890abcdef
+API_KEY=8f2a1c37f4d28e9c1234bcd56789abcd
 ```
 
 Puedes generar una clave segura con:
@@ -71,7 +71,7 @@ GET /api/locations
 
 | Clave         | Valor                          |
 |--------------|----------------------------------|
-| Authorization | Bearer 1234567890abcdef         |
+| Authorization | Bearer 8f2a1c37f4d28e9c1234bcd56789abcd         |
 
 > Reemplaza el valor por tu API_KEY configurada en `.env`
 
